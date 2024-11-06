@@ -33,7 +33,7 @@ public class WaitAndNotify {
     private static void two() throws InterruptedException{
         synchronized (LOCK){
             System.out.println("Entered method two"); //second
-            LOCK.notify();
+            LOCK.notify(); //execute last in this block
             System.out.println("After notify still two"); //third
         }
     }
