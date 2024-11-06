@@ -9,16 +9,23 @@ public class JoinThread {
         });
 
         Thread two = new Thread(() -> {
-            for(int i = 0; i < 20; i++){
+            for(int i = 0; i < 50; i++){
                 System.out.println("Thread 2 :" + i);
+            }
+        });
+
+        Thread three = new Thread(() -> {
+            for(int i = 0; i < 20; i++){
+                System.out.println("Thread 3 :" + i);
             }
         });
 
         one.start();
         System.out.println("Start"); //main thread takes priority
-        two.start();
+        two.start(); //this one won't wait for the thread one end
         try {
             one.join(); //parent thread wait for Thread one's execution
+            three.start(); //it will start after the thread one finishes
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
