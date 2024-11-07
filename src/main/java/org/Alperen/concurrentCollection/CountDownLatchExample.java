@@ -1,4 +1,4 @@
-package org.Alperen.threadSynchronisation;
+package org.Alperen.concurrentCollection;
 
 import java.util.concurrent.CountDownLatch;
 
