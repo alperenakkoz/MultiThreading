@@ -10,11 +10,9 @@ public class ExchangerExample {
         */
         Exchanger<Integer> exchanger = new Exchanger<>();
 
-        // Create two threads
         Thread thread1 = new Thread(new FirstThread(exchanger));
         Thread thread2 = new Thread(new SecondThread(exchanger));
 
-        // Start the threads
         thread1.start();
         thread2.start();
     }
