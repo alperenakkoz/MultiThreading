@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  Each chef is responsible for preparing a specific dish,
  and the kitchen manager wants to start serving customers only when all dishes are ready.
  */
-public class Restaurant {
+public class CountDownLatchExample {
     public static void main(String[] args) throws InterruptedException {
         int numberOfChefs = 3;
         CountDownLatch latch = new CountDownLatch(numberOfChefs);
