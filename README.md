@@ -11,7 +11,7 @@
     <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html#newFixedThreadPool-int-">FixedThreadPool</a>, 
     <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html#newCachedThreadPool--">CachedThreadPool</a>, 
     <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html#newScheduledThreadPool-int-">ScheduledThreadPool</a>)</li>
-  <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html">Ideal Pool Size</a></li>
+  <li><a href="https://stackoverflow.com/questions/16128436/setting-ideal-size-of-thread-pool">Ideal Pool Size</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Callable.html">Callable</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#synchronizedCollection-java.util.Collection-">Collections.synchronized</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CountDownLatch.html">CountDownLatch</a></li>
