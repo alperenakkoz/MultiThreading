@@ -21,7 +21,7 @@
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Exchanger.html">Exchanger</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html">Lock (ReentrantLock</a>, 
     <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantReadWriteLock.html">ReentrantReadWriteLock</a>)</li>
-  <li><a href="https://docs.oracle.com/javase/8/docs/jdk/api/overview-summary.html#deadlock-detection">Deadlock Detection (ThreadMXBean and ThreadInfo)</a></li>
+  <li><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/management/ThreadMXBean.html">Deadlock Detection (ThreadMXBean and ThreadInfo)</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/package-summary.html">Atomic Variables</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html">Semaphore</a></li>
   <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ForkJoinPool.html">ForkJoinPool</a></li>
