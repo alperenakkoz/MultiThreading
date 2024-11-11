@@ -2,6 +2,7 @@ package org.Alperen.executorService;
 
 import java.util.concurrent.*;
 
+//.execute() for void types, .submit() for return types
 public class CallableExample {
     public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
         try(ExecutorService executorService = Executors.newFixedThreadPool(2)) {
