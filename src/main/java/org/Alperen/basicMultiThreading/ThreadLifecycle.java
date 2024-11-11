@@ -12,8 +12,6 @@ public class ThreadLifecycle {
 
     public static void main(String[] args) {
 
-        Thread waiter = new Thread(new Waiter());
-
         // 1. NEW state (before starting the thread)
         System.out.println("State after creating thread (NEW): " + task.getState());
 
