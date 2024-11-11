@@ -11,6 +11,8 @@ public class ScheduledExecutor {
         service.scheduleAtFixedRate(new ProbeTask(), 100, 200, TimeUnit.MILLISECONDS);
 
         try {
+            Thread.sleep(1000);
+            service.shutdown(); //previously submitted tasks are executed, but no new tasks will be accepted
             if(!service.awaitTermination(10000, TimeUnit.MILLISECONDS)){
                 service.shutdownNow();
             }
